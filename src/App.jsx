@@ -7,6 +7,7 @@ function App() {
 		<div>
 			<Greet name="Dipan" />
 			<Greet name="Radif" />
+			<Greet name="Fikri" />
 		</div>
 	);
 }

@@ -1,5 +1,5 @@
-function Greet(props) {
-	return <h1>Halloo!! {props.name}!!! </h1>;
+function Greet({ name }) {
+	return <h1>Halloo!! {name}!!! </h1>;
 }
 
 export default Greet;
