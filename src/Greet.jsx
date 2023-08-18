@@ -1,4 +1,4 @@
-function Greet({ name, from, order }) {
+function Greet({ name, from = "Anonymous", order }) {
 	const get = order * 10000;
 	return (
 		<>
