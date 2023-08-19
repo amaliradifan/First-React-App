@@ -1,11 +1,12 @@
-function Greet({ name, from = "Anonymous", order }) {
-	const get = order * 10000;
+function Greet({ name, from = "Anonymous", order, get }) {
+	const money = order * 10000;
 	return (
 		<>
 			<h1>
-				Halloo!! {name}!!! You Get ${get}
+				Halloo!! {name}!!! You Get ${money}{" "}
+				{get.length == 1 && "dan Satu Barang yaitu "} {get.join(", ")}
 			</h1>
-			<h2>- {from}</h2>
+			<h2>- dari {from}</h2>
 		</>
 	);
 }
