@@ -1,10 +1,11 @@
 import "./App.css";
 import Greet from "./greet";
-import Name from "./Name";
+import Heading from "./Heading";
 
 function App() {
 	return (
 		<div>
+			<Heading color="Blue" />
 			<Greet
 				name="Dipan"
 				from="Mama"
